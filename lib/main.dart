@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tabernaculodafe/home/home.dart';
+import 'package:tabernaculodafe/webradio.dart';
 
 void main() {
   runApp(
@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tabernáculo da Fé',
+      title: 'Web Rádio',
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const Home(),
+      home: const WebRadio(),
     );
   }
 }
